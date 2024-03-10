@@ -13,4 +13,4 @@ Templates within this repository:
 * License
 * Logging (following [this video](https://www.youtube.com/watch?v=9L77QExPmI0))
 * Testing (following [this video](https://www.youtube.com/watch?v=DhUpxWjOhME&t))
-* CI/CD pipelines (following [this video](https://www.youtube.com/watch?v=DhUpxWjOhME&t)) - **TODO**
+* CI/CD pipelines - **TODO**

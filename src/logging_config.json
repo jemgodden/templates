@@ -1,0 +1,32 @@
+{
+  "version": 1.0,
+  "disable_existing_loggers": false,
+  "filters": {},
+  "formatters": {
+    "standard": {
+      "format": "%(asctime)s | %(levelname)s - %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "handlers": {
+    "file": {
+      "class": "logging.FileHandler",
+      "formatter": "standard",
+      "filename": ""
+    },
+    "stdout": {
+      "class": "logging.StreamHandler",
+      "formatter": "standard",
+      "stream": "ext://sys.stdout"
+    }
+  },
+  "loggers": {
+    "root": {
+      "level": "DEBUG",
+      "handlers": [
+        "file",
+        "stdout"
+      ]
+    }
+  }
+}
