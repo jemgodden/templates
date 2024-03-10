@@ -1,9 +1,8 @@
-from calculator import add
+from app.calculator import add, subtract
 
-if __name__ == "main":
-    x, y = 1, 2
-    print(f"x = {x}")
-    print(f"y = {y}")
+if __name__ == "__main__":
+    x, y = 1, 2.1
 
-    ans = add(x, y)
-    print(f"x + y = {ans}")
+    ans1 = add(x, y)
+    ans2 = subtract(x, y)
+    print(ans1, ans2)
